@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.27/moment-timezone-with-data.min.js"></script>
+    <link rel="stylesheet" href="status.css">
+    <script src="status.js"></script>
+    <title>Current status</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Stato corrente</h1>
+    	<div class="row">
+            <!-- Boxes de Acoes -->
+      	<div class="col-xs-12 col-sm-6">
+    			<div class="box">
+    				<div class="icon">
+    					<div class="image"><i class="fa fa-clock-o"></i></div>
+    					<div class="info">
+    						<h3 class="title">Data e ora</h3>
+    						<p id="currentTime"><p>
+    					</div>
+    				</div>
+    				<div class="space"></div>
+    			</div>
+    		</div>
+
+        <div class="col-xs-12 col-sm-6">
+    			<div class="box">
+    				<div class="icon">
+    					<div class="image"><i class="fa fa-paw"></i></div>
+    					<div class="info">
+    						<h3 class="title">Ultima pappa</h3>
+                <p id="lastFedAgo"></p>
+        				<p id="lastFed"></p>
+    					</div>
+    				</div>
+    				<div class="space"></div>
+    			</div>
+    		</div>
+
+    		<!-- /Boxes de Acoes -->
+    	</div>
+    </div>
+
+  </body>
+</html>
